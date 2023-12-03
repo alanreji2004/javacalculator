@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
 
 public class calculator extends JFrame implements ActionListener{
@@ -86,6 +85,6 @@ public class calculator extends JFrame implements ActionListener{
         }
     }
     public static void main(String args[]){
-        calculator s1 = new calculator();
+        new calculator();
     }
 }
